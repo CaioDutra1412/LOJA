@@ -1,11 +1,15 @@
 package dwbe.lojatenis.Controller;
 
+import dwbe.lojatenis.Model.Pessoa;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class PessoaController {
     private List<Pessoa> database = new ArrayList<>();
 
     public void gravar(Pessoa pessoa){
         database.add(pessoa);
-
     }
 
     public void alterar(Pessoa pessoa){
@@ -13,8 +17,8 @@ public class PessoaController {
         database.set(index,pessoa);
     }
 
-    public User buscarPorId(String pessoa){
-        int index = database.indexOf(new Pessoa(pessoa));
+    public Pessoa buscarPorId(String id){
+        int index = database.indexOf(id);
         Pessoa selectPessoa = database.get(index);
         return selectPessoa;
     }

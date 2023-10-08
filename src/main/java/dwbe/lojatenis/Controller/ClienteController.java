@@ -1,5 +1,7 @@
 package dwbe.lojatenis.Controller;
 
+import dwbe.lojatenis.Model.Cliente;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +10,6 @@ public class ClienteController {
 
     public void gravar(Cliente cliente){
         database.add(cliente);
-
     }
 
     public void alterar(Cliente cliente){
@@ -16,8 +17,8 @@ public class ClienteController {
         database.set(index,cliente);
     }
 
-    public User buscarPorId(String id){
-        int index = database.indexOf(new Cliente(id));
+    public Cliente buscarPorId(String id){
+        int index = database.indexOf(id);
         Cliente selectCliente = database.get(index);
         return selectCliente;
     }

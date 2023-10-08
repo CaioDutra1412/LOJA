@@ -1,11 +1,15 @@
 package dwbe.lojatenis.Controller;
 
+import dwbe.lojatenis.Model.Estoque;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class EstoqueController {
-    private List<User> database = new ArrayList<>();
+    private List<Estoque> database = new ArrayList<>();
 
     public void gravar(Estoque estoque){
-        database.add(user);
-
+        database.add(estoque);
     }
 
     public void alterar(Estoque estoque){
@@ -13,8 +17,8 @@ public class EstoqueController {
         database.set(index,estoque);
     }
 
-    public User buscarPorId(String id){
-        int index = database.indexOf(new Estoque(id));
+    public Estoque buscarPorId(String id){
+        int index = database.indexOf(id);
         Estoque selectEstoque = database.get(index);
         return selectEstoque;
     }

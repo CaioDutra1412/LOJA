@@ -1,11 +1,15 @@
 package dwbe.lojatenis.Controller;
 
+import dwbe.lojatenis.Model.Funcionario;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class FuncionarioController {
     private List<Funcionario> database = new ArrayList<>();
 
     public void gravar(Funcionario funcionario){
-        database.add(user);
-
+        database.add(funcionario);
     }
 
     public void alterar(Funcionario funcionario){
@@ -13,8 +17,8 @@ public class FuncionarioController {
         database.set(index,funcionario);
     }
 
-    public User buscarPorId(String id){
-        int index = database.indexOf(new Funcionario(id));
+    public Funcionario buscarPorId(String id){
+        int index = database.indexOf(id);
         Funcionario selectFuncionario = database.get(index);
         return selectFuncionario;
     }
