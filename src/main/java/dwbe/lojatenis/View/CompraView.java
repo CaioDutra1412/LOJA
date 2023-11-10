@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class CompraView {
     private final CompraController service = new CompraController();
-    @Override
+    //@Override
     public void run(String... args) throws Exception {
         for(int x=1; x<=5;x++){
             service.gravar(new Compra("1", 4, 30.70, new Date(10,03,2023), null, null));

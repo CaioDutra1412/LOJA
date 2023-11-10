@@ -18,6 +18,17 @@ public class Venda extends EntradaSaida {
         this.cliente = cliente;
     }
 
+    public boolean realizarVenda(int quantidade, Estoque estoque) {
+        if (quantidade > 0 && estoque != null) {
+            if (quantidade <= estoque.getQtd()) {
+                estoque.setQtd(estoque.getQtd() - quantidade);
+                this.cliente.adicionarVenda(this);
+                return true;
+            }
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return "Venda{" +

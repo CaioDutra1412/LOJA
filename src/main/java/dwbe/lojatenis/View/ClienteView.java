@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ClienteView {
     private final ClienteController service = new ClienteController();
-    @Override
+    //@Override
     public void run(String... args) throws Exception {
         for(int x=1; x<=5;x++){
             service.gravar(new Cliente("1", "Thiago", "123456789", "Rua Oscar Vidal", "M", "31 9 8888-7777", "thiago.cotta05@gmail.com", "ativo"));
