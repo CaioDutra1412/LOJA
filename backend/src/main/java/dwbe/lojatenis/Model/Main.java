@@ -94,7 +94,7 @@ public class Main {
             System.out.println("3 - Excluir Fornecedor");
             System.out.println("4 - Listar Fornecedores");
             System.out.println("0 - Voltar");
-            System.out.print("O que deseja? ");
+            System.out.print("O`que deseja? ");
             String resposta = scanner.next();
 
             switch (resposta) {
@@ -204,7 +204,7 @@ public class Main {
                         System.out.println("2 - Produtos do fornecedor");
                         System.out.println("3 - Adicionar produtos ao fornecedor");
                         System.out.println("0 - Voltar");
-                        System.out.print("O que deseja? ");
+                        System.out.print("O`que deseja? ");
                         String respostaEscolhaDeAlteracao = scanner.next();
 
                         switch (respostaEscolhaDeAlteracao) {
@@ -250,7 +250,7 @@ public class Main {
         System.out.println("12 - Atividade economica principal");
         System.out.println("13 - Situação cadastral");
         System.out.println("0 - Voltar");
-        System.out.print("O que deseja? ");
+        System.out.print("O`que deseja? ");
         String respostaAlteracao = scanner.next();
 
         switch (respostaAlteracao) {
@@ -336,7 +336,7 @@ public class Main {
             listarProdutosMenu(banco, false);
             System.out.println("Id do produto que deseja adicionar ao fornecedor " + fornecedorEncontrado.getNomeFantasia());
             System.out.println("0 - Voltar");
-            System.out.print("O que deseja? ");
+            System.out.print("O`que deseja? ");
             String resposta = scanner.next();
 
             switch (resposta) {
@@ -369,7 +369,7 @@ public class Main {
                     System.out.println(fornecedor);
                 }
                 System.out.println("0 - Voltar");
-                System.out.print("O que deseja? ");
+                System.out.print("O`que deseja? ");
                 String resposta = scanner.next();
                 switch (resposta) {
                     case "0":
@@ -396,7 +396,7 @@ public class Main {
             System.out.println("3 - Excluir Cliente");
             System.out.println("4 - Listar Clientes");
             System.out.println("0 - Voltar");
-            System.out.print("O que deseja? ");
+            System.out.print("O`que deseja? ");
             String resposta = scanner.next();
 
             switch (resposta) {
@@ -465,7 +465,7 @@ public class Main {
             listarClientesMenu(banco, false);
             System.out.println("Id do cliente que deseja alterar");
             System.out.println("0 - Voltar");
-            System.out.print("O que deseja? ");
+            System.out.print("O`que deseja? ");
             String resposta = scanner.next();
 
             switch (resposta) {
@@ -490,7 +490,7 @@ public class Main {
                         System.out.println("6 - Email");
                         System.out.println("7 - Status");
                         System.out.println("0 - Voltar");
-                        System.out.print("O que deseja? ");
+                        System.out.print("O`que deseja? ");
                         String respostaAlteracao = scanner.next();
 
                         switch (respostaAlteracao) {
@@ -550,7 +550,7 @@ public class Main {
                     System.out.println(cliente);
                 }
                 System.out.println("0 - Voltar");
-                System.out.print("O que deseja? ");
+                System.out.print("O`que deseja? ");
                 String resposta = scanner.next();
                 switch (resposta) {
                     case "0":
@@ -579,7 +579,7 @@ public class Main {
             System.out.println("5 - Comprar Produtos");
             System.out.println("6 - Listar Estoque");
             System.out.println("0 - Voltar");
-            System.out.print("O que deseja? ");
+            System.out.print("O`que deseja? ");
             String resposta = scanner.next();
 
             switch (resposta) {
@@ -655,7 +655,7 @@ public class Main {
                 listarProdutosMenu(banco, false);
             System.out.println("Id do produto que deseja alterar");
             System.out.println("0 - Voltar");
-            System.out.print("O que deseja? ");
+            System.out.print("O`que deseja? ");
             String resposta = scanner.next();
 
             switch (resposta) {
@@ -672,14 +672,14 @@ public class Main {
                     if (produtoEncontrado != null) {
                         menuClear();
                         System.out.println(produtoEncontrado);
-                        System.out.println("O que deseja alterar?");
+                        System.out.println("O`que deseja alterar?");
                         System.out.println("1 - Preço");
                         System.out.println("2 - Tamanho");
                         System.out.println("3 - Cor");
                         System.out.println("4 - Marca");
                         System.out.println("5 - Tipo");
                         System.out.println("0 - Voltar");
-                        System.out.print("O que deseja? ");
+                        System.out.print("O`que deseja? ");
                         String respostaAlteracao = scanner.next();
 
                         switch (respostaAlteracao) {
