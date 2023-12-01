@@ -1,0 +1,79 @@
+div {
+    margin-bottom: 10px;
+  }
+
+  label {
+    margin-left : 20px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input {
+    margin-left : 20px;
+    width: 25%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin-left : 20px;
+    //background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+    .tabela-produtos {
+      margin-left : 50px;
+      background-color: lightgray;
+      border-radius: 10px;
+      width: 80%;
+      border-collapse: collapse;
+    }
+
+    .tabela-produtos th:first-child {
+        border-top-left-radius: 10px;
+    }
+
+    .tabela-produtos th:last-child {
+        border-top-right-radius: 10px;
+    }
+
+    .tabela-produtos th {
+      background-color: darkgray;
+      color: white;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .tabela-produtos td {
+      padding: 10px;
+    }
+
+    .tabela-produtos tr:hover {
+      background-color: gray;
+      cursor: pointer;
+    }
+
+    select {
+        margin-left: 50px;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: #f3f3f3;
+    }

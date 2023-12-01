@@ -1,0 +1,80 @@
+    div {
+    margin-bottom: 10px;
+    }
+
+    label {
+    margin-left : 40px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+    h3 {
+    margin-left : 40px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    }
+
+    input {
+    margin-left : 40px;
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+    button {
+    margin-left : 40px;
+    //background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #45a049;
+    }
+
+
+    .tabela-fornecedores {
+      margin-left : 50px;
+      background-color: lightgray;
+      border-radius: 10px;
+      width: 80%;
+      border-collapse: collapse;
+    }
+
+    .tabela-fornecedores th:first-child {
+        border-top-left-radius: 10px;
+    }
+
+    .tabela-fornecedores th:last-child {
+        border-top-right-radius: 10px;
+    }
+
+    .tabela-fornecedores th {
+      background-color: darkgray;
+      color: white;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .tabela-fornecedores td {
+      padding: 10px;
+    }
+
+    .tabela-fornecedores tr:hover {
+      background-color: gray;
+      cursor: pointer;
+    }
+
+    .formulario {
+    display: flex;
+    }
+    .formulario > div {
+      flex: 1;
+    }
